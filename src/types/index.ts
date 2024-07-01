@@ -5,4 +5,7 @@ Not to be shared, replicated or used without prior consent.
 Contact Kars for any enquieries
 */
 
-// ? Put your types here :D
+export type navbarProp = {
+    name: string,
+    link: string,
+}
