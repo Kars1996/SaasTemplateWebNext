@@ -50,7 +50,7 @@ export default function Navbar() {
         >
             <div className="w-full mx-auto md:px-12 px-8 max-w-7xl lg:px-16">
                 <div className="relative flex flex-col w-full py-5 mx-auto bg-white md:items-center md:justify-between md:flex-row md:px-6">
-                    <div className="flex flex-row items-center justify-between lg:justify-start">
+                    <div className="flex flex-row items-center justify-between lg:justify-start w-full md:w-auto">
                         <Link
                             href="/"
                             className="text-black inline-flex items-center gap-3"
@@ -93,21 +93,22 @@ export default function Navbar() {
                     <nav
                         className={`${
                             isOpen ? "flex" : "hidden"
-                        } flex-col items-center jutify-center flex-grow md:pb-0 md:flex md:justify-end md:flex-row`}
-                    >   <div className="items-center">
-                        {navItems.map((item) => (
-                            <Link
-                                key={item.name}
-                                href={item.link}
-                                className={`px-2 lg:px-6 py-2 md:px-3 text-sm font-medium ${
-                                    path === item.link
-                                        ? `text-accent-200`
-                                        : `text-black`
-                                } hover:text-accent-400`}
-                            >
-                                {item.name}
-                            </Link>
-                        ))}
+                        } flex-col items-center justify-center flex-grow md:flex md:justify-center md:flex-row`}
+                    >
+                        <div className="flex flex-col md:flex-row md:items-center md:justify-center">
+                            {navItems.map((item) => (
+                                <Link
+                                    key={item.name}
+                                    href={item.link}
+                                    className={`px-2 lg:px-6 py-2 md:px-3 text-sm font-medium ${
+                                        path === item.link
+                                            ? `text-accent-200`
+                                            : `text-black`
+                                    } hover:text-accent-400`}
+                                >
+                                    {item.name}
+                                </Link>
+                            ))}
                         </div>
                         <div className="inline-flex items-center gap-2 list-none lg:ml-auto">
                             <Link
