@@ -9,3 +9,9 @@ export type navbarProp = {
     name: string,
     link: string,
 }
+
+export interface featureProp {
+    icon: JSX.Element;
+    title: string;
+    description: string;
+}

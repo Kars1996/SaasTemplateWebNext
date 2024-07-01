@@ -1,4 +1,5 @@
 import Hero from "@/components/Landing/Hero/Hero"
+import Features from "@/components/Landing/Features/Features";
 
 /*
 Copyright © 2024 Kars (github.com/kars1996)
@@ -11,6 +12,7 @@ export default function () {
     return (
         <>
         <Hero />
+        <Features />
         </>
     );
 }
