@@ -37,7 +37,7 @@ export default function () {
                     <div>
                         <div className="gap-3 lg:inline-flex lg:items-center">
                             <div className="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10">
-                                <FaKeyboard className="h-5 w-5" />
+                                <FaKeyboard className="h-5 w-5 bg-transparent" />
                             </div>
                             <p className="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0">
                                 Developer experience
@@ -51,7 +51,7 @@ export default function () {
                     <div>
                         <div className="gap-3 lg:inline-flex lg:items-center">
                             <div className="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10">
-                                <FaPaintBrush className="h-5 w-5" />
+                                <FaPaintBrush className="h-5 w-5 bg-transparent" />
                             </div>
                             <p className="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0">
                                 Designers go-to app
@@ -65,7 +65,7 @@ export default function () {
                     <div>
                         <div className="gap-3 lg:inline-flex lg:items-center">
                             <div className="items-center justify-center text-accent-500 bg-gray-100 rounded-xl flex h-10 w-10">
-                                <FaRocket className="h-5 w-5" />
+                                <FaRocket className="h-5 w-5 bg-transparent" />
                             </div>
                             <p className="mt-4 text-lg font-semibold leading-6 text-black font-display lg:mt-0">
                                 Easy onboarding
