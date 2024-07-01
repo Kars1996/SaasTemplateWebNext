@@ -19,15 +19,10 @@ import Footer from "@/components/Global/Footer/Footer"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Kars Template",
-    description: "Default text for all apps powered by create-kapp.",
+    title: "Saas Template",
+    description: "Easy Scalable template for your Saas Needs.",
     // keywords: [],
     openGraph: {
-        url: "https://kars.bio/",
-        type: "website",
-        title: "Kars",
-        siteName: "kars.bio",
-        description: "Default text for all apps powered by create-kapp.",
         images: [
             {
                 url: "https://cdn3.kars.bio/assets/banner.png",
