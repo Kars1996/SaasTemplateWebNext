@@ -13,6 +13,7 @@ Contact Kars for any enquieries
 import Console from "@/modules/Console/Console";
 import { newMeta } from "@/modules/meta";
 import AOS from "@/lib/Aos/aos";
+import Navbar from "@/components/Global/Navbar/Navbar"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,14 +61,16 @@ export default function RootLayout({
             <head
                 dangerouslySetInnerHTML={{
                     __html: "<!-- Made by Kars 💘 -->",
-                }}
+                }} /* I'd appreciate it if you don't remove credits <3 */
             />
             <Body className={`${inter.className} __kars`}>
                 <main className="_kars">
                     <AOS />
+                    <Navbar />
                     {children}
                 </main>
                 <Console />
+                {/* I'd appreciate it if you don't remove credits <3 */}
             </Body>
         </html>
     );

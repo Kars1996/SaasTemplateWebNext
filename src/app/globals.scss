@@ -11,7 +11,7 @@
 
 * {
     transition: var(--transition);
-    @apply m-0 p-0 box-border;
+    @apply m-0 p-0 box-border bg-white text-black;
 }
 
 ._kars {
@@ -23,11 +23,11 @@
 }
 
 ::-moz-selection { 
-    background: #FF5E693d;
+    background: #3b82f63d;
   }
   
   ::selection {
-    background: #FF5E693d;
+    background: #3b82f63d;
   }
 
 ::-webkit-scrollbar {
