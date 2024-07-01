@@ -14,6 +14,7 @@ import Console from "@/modules/Console/Console";
 import { newMeta } from "@/modules/meta";
 import AOS from "@/lib/Aos/aos";
 import Navbar from "@/components/Global/Navbar/Navbar"
+import Footer from "@/components/Global/Footer/Footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -68,6 +69,7 @@ export default function RootLayout({
                     <AOS />
                     <Navbar />
                     {children}
+                    <Footer />
                 </main>
                 <Console />
                 {/* I'd appreciate it if you don't remove credits <3 */}
