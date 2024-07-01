@@ -15,3 +15,10 @@ export interface featureProp {
     title: string;
     description: string;
 }
+
+export type testimonialsProp = {
+  rating: number;
+  text: string;
+  author: string;
+  brandImg?: string;
+}
