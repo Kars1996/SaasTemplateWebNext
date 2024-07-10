@@ -54,11 +54,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <head
-                dangerouslySetInnerHTML={{
-                    __html: "<!-- Made by Kars 💘 -->",
-                }} /* I'd appreciate it if you don't remove credits <3 */
-            />
             <Body className={`${inter.className} __kars`}>
                 <main className="_kars">
                     <AOS />
